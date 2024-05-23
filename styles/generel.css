@@ -1,0 +1,115 @@
+body{
+    margin:16px;
+    width: 100%;
+    height: 100%;
+}
+
+html{
+/************************Farver**********************************/
+--clr-prim-brown: #b49772;
+--clr-prim-lightGrey: #efebeb;
+--clr-prim-darkGrey: #878582;
+--clr-prim-black: #252525;
+
+/*************************color Tints****************************/
+--clr-tint-brown1: #BBA180;
+--clr-tint-brown2: #C3AC8E;
+--clr-tint-brown3: #CBB69C;
+--clr-tint-brown4: #D2C1AA;
+--clr-tint-brown5: #D9CBB8;
+--clr-tint-brown6: #E1D5C7;
+--clr-tint-brown7: #E9E0D5;
+--clr-tint-brown8: #F0EAE3;
+--clr-tint-brown9: #F7F5F1;
+
+--clr-tint-grey1: #93918F;
+--clr-tint-gre2:  #9F9D9B;
+--clr-tint-grey3: #ABA9A8;
+--clr-tint-grey4: #B7B6B4;
+--clr-tint-grey5: #C3C2C1;
+--clr-tint-grey6: #CFCECD;
+--clr-tint-grey7: #DBDADA;
+--clr-tint-grey8: #E7E7E6;
+--clr-tint-grey9: #F3F3F3;
+
+--clr-tint-black1: #3B3B3B;
+--clr-tint-black2: #515151;
+--clr-tint-black3: #666666;
+--clr-tint-black4: #7C7C7C;
+--clr-tint-black5: #929292;
+--clr-tint-black6: #A8A8A8;
+--clr-tint-black7: #BEBEBE;
+--clr-tint-black8: #D3D3D3;
+--clr-tint-black9: #E9E9E9;
+
+/*************************color shades****************************/
+--clr-shades-brown1: #9A7E59;
+--clr-shades-brown2: #81643F;
+--clr-shades-brown3: #684B26;
+--clr-shades-brown4: #4E310C;
+--clr-shades-brown5: #351800;
+
+--clr-shades-grey1: #D5D1D1;
+--clr-shades-grey2: #BCB8B8;
+--clr-shades-grey3: #A29E9E;
+--clr-shades-grey4: #898585;
+--clr-shades-grey5: #706C6C;
+--clr-shades-grey6: #565252;
+
+--clr-shades-black1: #0C0C0C;
+
+
+/*************************Font-family****************************/
+--ff-main: "margot", sans-serif;  
+--ff-second: "coranto-2", serif;
+--ff-footer: "inter-variable", sans-serif;
+
+/*************************Fonts weights****************************/
+--fw-regular:400;
+--fw-bold:700;
+/*************************Kun for Inter-variable*******************/
+--fw-900:900;
+--fw-800:800;
+--fw-700:700;
+--fw-600:600;
+--fw-500:500;
+--fw-400:400;
+--fw-300:300;
+--fw-200:200;
+--fw-100:100;
+/*************************Fonts size****************************/
+--size-56px:3.5rem;
+--size-48px:3rem;
+--size-32px:2rem;
+--size-24px:1.5rem;
+--size-20px:1.25rem;
+--size-18px:1.125rem;
+--size-16px:1rem;
+--size-14px:0.875rem;
+--size-12px:0.75rem;
+
+/*************************line heigt****************************/
+--lineheight-64px:4rem;
+--lineheight-52px:3.5rem;
+--lineheight-36px:2.25rem;
+--lineheight-28px:1.75rem;
+--lineheight-24px:1.5rem;
+--lineheight-20px:1.25rem;
+--lineheight-16px:1rem;
+}
+
+
+
+p{
+font-weight: var(--fw-regular);
+font-family: var(--ff-second);
+font-size: var(--size-14px);
+}
+
+footer{
+    font-family: var(--ff-footer);
+    font-weight: var(--fw-400);
+    font-size: var(--size-14px);
+}
+
+
