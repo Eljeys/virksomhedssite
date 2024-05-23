@@ -2,6 +2,7 @@ body{
     margin:16px;
     width: 100%;
     height: 100%;
+    background-color: var(--clr-prim-black);
 }
 
 html{
@@ -104,12 +105,33 @@ p{
 font-weight: var(--fw-regular);
 font-family: var(--ff-second);
 font-size: var(--size-14px);
+color: var(--clr-prim-lightGrey);
 }
 
 footer{
     font-family: var(--ff-footer);
     font-weight: var(--fw-400);
     font-size: var(--size-14px);
+    color: var(--clr-prim-lightGrey);
 }
 
+h1,h2,h3,h4{
+    color: var(--clr-prim-lightGrey);
+    font-family: var(--ff-main);
+}
 
+h1{
+    font-size: var(--size-32px);
+}
+
+h2{
+    font-size: var(--size-24px);
+}
+
+h3{
+    font-size: var(--size-20px);
+}
+
+h4{
+    font-size: var(--size-16px);
+}
