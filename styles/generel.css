@@ -101,19 +101,7 @@ html{
 
 
 
-p{
-font-weight: var(--fw-regular);
-font-family: var(--ff-second);
-font-size: var(--size-14px);
-color: var(--clr-prim-lightGrey);
-}
 
-footer{
-    font-family: var(--ff-footer);
-    font-weight: var(--fw-400);
-    font-size: var(--size-14px);
-    color: var(--clr-prim-lightGrey);
-}
 
 h1,h2,h3,h4{
     color: var(--clr-prim-lightGrey);
@@ -134,4 +122,26 @@ h3{
 
 h4{
     font-size: var(--size-16px);
+}
+
+p{
+font-weight: var(--fw-regular);
+font-family: var(--ff-second);
+font-size: var(--size-14px);
+color: var(--clr-prim-lightGrey);
+}
+
+img,picture,video,canvas,svg{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+footer{
+    font-family: var(--ff-footer);
+    font-weight: var(--fw-400);
+    font-size: var(--size-14px);
+    color: var(--clr-prim-lightGrey);
 }
