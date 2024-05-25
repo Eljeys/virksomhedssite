@@ -1,5 +1,12 @@
+p{
+    color: #EFEBEB;
+}
+a{
+    color: #EFEBEB;
+}
 footer{
     padding: 20px;
+    background-color: #252525;
 }
 .footer-content{
     display: flex;
