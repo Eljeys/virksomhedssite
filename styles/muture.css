@@ -1,13 +1,15 @@
-
-
-
-
-
-/*FOOTER*/
-
+body{
+    background-color: #252525;
+}
+h1{
+    color: #EFEBEB;
+}
 p{
     color: #EFEBEB;
 }
+
+/*FOOTER*/
+
 a{
     color: #EFEBEB;
 }
