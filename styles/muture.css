@@ -29,13 +29,17 @@ footer{
 .contact-info p, .other-restaurants p {
 margin: 0;
 }
+.other-restaurants p{
+    font-weight: bold;
+}
 .social-media a {
 margin: 0 10px;
 }
 .social-media img{
-    width: auto;
-    height: auto;
+height: auto;
+width: auto;
 }
+
 @media(min-width : 600px){
 .footer-content{
     flex-direction: row;
