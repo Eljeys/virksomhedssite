@@ -136,9 +136,6 @@ img,picture,video,canvas,svg{
     max-width: 100%;
 }
 
-
-
-
 footer{
     font-family: var(--ff-footer);
     font-weight: var(--fw-400);
