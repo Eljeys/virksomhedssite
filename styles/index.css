@@ -19,11 +19,52 @@
   color: black;
 }
 
+img.frontpage,
+h1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  align-self: center;
+  font-family: margot, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  text-align: center;
+}
+
+.frontphoto {
+  display: grid;
+  width: 100%;
+}
+
 img.frontpage {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
 }
 
-@media (min-width: 390px) {
+.front-tekst,
+p {
+  font-family: coranto-2, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: justify;
+}
+
+.fronttekst,
+h1 {
+  font-family: margot, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
 }
