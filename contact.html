@@ -7,7 +7,57 @@
     <link rel="stylesheet" href="styles/contact.css" />
     <title>contact</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1>Contact us</h1>
+      <section class="grid_1-1">
+        <div class="kontakt">
+          <p>Thank you for reaching out! We take great pride in our burgers and want to keep everyone happy. Let us know what you think, whether it´s a compliment or complaint.</p>
+        </div>
+        <div class="kontakt">
+          <form action="action_page.php">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Name" />
+
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email" />
+
+            <label for="Subject"></label>
+            <input type="text" id="Subject" name="Subject" placeholder="Subject" />
+
+            <label for="message"></label>
+            <textarea id="message" name="Message" placeholder="Message" style="height: 200px"></textarea>
+
+            <input type="send" value="Send" />
+          </form>
+        </div>
+      </section>
+      <h1>Join the team!</h1>
+      <section class="grid_1-1">
+        <div class="kontakt">
+          <p>Having a great staff is a crucial factor for us and our burger joints. We believe in teamwork, friendliness and making the best out of each day. If you´re interested in joining the team, please send us an inquiry down below!</p>
+        </div>
+        <div class="kontakt">
+          <form action="action_page.php">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Name" />
+
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email" />
+
+            <label for="message"></label>
+            <textarea id="message" name="Message" placeholder="Few words about you" style="height: 200px"></textarea>
+
+            <input type="send" value="Send" />
+          </form>
+          <h2>Upload your CV</h2>
+          <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
   <footer>
     <div class="footer-content">
       <div class="contact-info">
