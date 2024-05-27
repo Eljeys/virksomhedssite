@@ -1,12 +1,6 @@
 body{
     background-color: #252525;
 }
-h1{
-    color: #EFEBEB;
-}
-p{
-    color: #EFEBEB;
-}
 
 /*FOOTER*/
 
@@ -40,7 +34,7 @@ height: auto;
 width: auto;
 }
 
-@media(min-width : 600px){
+@media(min-width : 390px){
 .footer-content{
     flex-direction: row;
     justify-content: space-between;
