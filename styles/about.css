@@ -1,6 +1,8 @@
-.image1{
-    border: 3px solid black;
+.image1, .image2, .image3, .image4, .image5{
+    padding-left: 2%;
+    padding-right: 2%;
 }
+
 
 .carousel{
     width: 100%;
@@ -65,11 +67,10 @@ scroll-snap-align: start;
     position: relative;
     display: flex;
     justify-content: center;
+    font-size: var(--size-24px);
+    margin-bottom: 2%;
 }
 
-.h1_kødbyen{
-    padding-bottom: 0;
-}
 
 .div_img img{
     display: block;
@@ -87,6 +88,7 @@ font-size: var(--size-16px);
 width: 45ch;
 line-height: var(--lineheight-24px);
 padding: 5%;
+
 }
 
 
@@ -103,30 +105,42 @@ padding: 5%;
  overflow: hidden;
 }
 
+iframe{
+    width: 100%;
+}
+
 .maps_btn{
     display: flex;
     justify-content: center;
-    padding-top:5%;
+    margin-bottom:8%;
+    margin-top: 2%;
+}
+
+ .maps_btn a:link{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: var(--ff-main);
     font-weight: var(--fw-regular);
     font-size: var(--size-14px);
 }
-.maps_btn a{
+.maps_btn a:link{
     color: var(--clr-prim-black);
     text-decoration: none;
 }
-.maps_btn button{
-    width: 215px;
+.maps_btn a:link{
+    width: 200px;
     height: 36px;
     border: 2px solid var(--clr-prim-black);
     background-color: var(--clr-prim-lightGrey);
 }
-.maps_btn :hover{
+.maps_btn a:hover{
     background-color: var(--clr-tint-grey3);
     text-decoration: underline;
 }
 
-.maps_btn :active{
+.maps_btn a:active{
     background-color: var(--clr-tint-grey1);
 }
 
@@ -146,7 +160,6 @@ padding: 5%;
 
 @media(min-width: 1200px){
 
-
     /*Section 3 */
     .grid2_1-1{
         display: grid;
@@ -163,9 +176,10 @@ padding: 5%;
         width: 65ch;
         height: fit-content;
         justify-content: center;
-        padding-top:40%;
+        padding-top:11%;
         padding-left: 0;
         column-gap: 0;
+        font-size: var(--size-18px);
     }
     .h1_ourstory{
         display: inline-block;
@@ -173,9 +187,11 @@ padding: 5%;
         grid-column: 2;
         grid-row: 1;
         position: relative;
-        margin-top: 27%;
+        margin-top: -2%;
         column-gap: 1rem;
+        font-size: var(--size-32px);
     }
+  
 
     .div_img {
         display: grid;
@@ -187,29 +203,35 @@ padding: 5%;
     
 /*section 4*/
 .grid3_1-1{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     margin-top:2%;
     margin-bottom: 2%;
+    width: 100%;
+    column-gap: 0;
+    
 }
 
 
 .div_text2{
-    border: 3px dotted orange;
     display: grid;
     grid-column: 1;
+    grid-row: 1;
     padding: 0;
-    width: 65ch;
-    /* padding-top: 5%; */
+    width: 60ch;
+    height: fit-content;
+    font-size: var(--size-18px);
 }
 
 .div_img2{
     display: grid;
     grid-column: 2;
+    width: fit-content;
 }
 .h1_kødbyen h1{
     margin:0;
+    font-size: var(--size-32px);
 }
 .h1_kødbyen{
     /* border: 3px solid red; */
@@ -218,8 +240,79 @@ padding: 5%;
         grid-row: 1;
         position: relative;
         padding-right:0;
-        margin-bottom:2%;
-       
-        
+        margin-bottom:2%; 
 }
+
+/*****************Section 5 google maps****************/
+
+
+.maps_btn a:link{
+    width: 263px;
+    height: 44px;
+    border: 2px solid var(--clr-prim-black);
+    background-color: var(--clr-prim-lightGrey);
+}
+.maps_btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom:8%;
+    margin-top: 0;
+}
+
+
+.maps_btn{
+    display: flex;
+    justify-content: center;
+    padding-top:1%;
+    font-family: var(--ff-main);
+    font-weight: var(--fw-regular);
+    font-size: var(--size-18px);
+}
+
+
+
+
+
+
+
+
+
+
+/*****************Section 6 the vibe****************/
+.grid4_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2% ;
+}
+.div_img3{
+    display: grid;
+    grid-column: 1;
+    width: fit-content;
+    height: 100%;
+    margin: 0;
+}
+
+.h1_Thevibe{
+    font-size: var(--size-32px);
+    justify-content: left;
+    margin-top: 0;
+    height: fit-content;
+    margin-bottom: 2%;
+}
+
+
+
+
+.div_text3{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    height: fit-content;
+    width: 55ch;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    font-size: var(--size-18px);
+}
+
 }
