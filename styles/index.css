@@ -47,11 +47,11 @@ p {
   font-family: coranto-2, serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 30px;
   text-align: justify;
 }
 
-.fronttekst,
+.front-tekst,
 h1 {
   font-family: margot, sans-serif;
   font-style: normal;
@@ -61,10 +61,17 @@ h1 {
   text-align: center;
 }
 
+.video1 {
+  margin: 30px;
+}
+
+.front-tekst {
+  margin: 30px;
+}
+
 @media (min-width: 800px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
   }
 }
