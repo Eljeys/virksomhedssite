@@ -24,7 +24,7 @@ html{
 --clr-tint-brown9: #F7F5F1;
 
 --clr-tint-grey1: #93918F;
---clr-tint-gre2:  #9F9D9B;
+--clr-tint-grey2:  #9F9D9B;
 --clr-tint-grey3: #ABA9A8;
 --clr-tint-grey4: #B7B6B4;
 --clr-tint-grey5: #C3C2C1;
@@ -131,14 +131,62 @@ font-size: var(--size-14px);
 color: var(--clr-prim-lightGrey);
 }
 
-img,picture,video,canvas,svg{
+/* img,picture,video,canvas,svg{
     display: block;
     max-width: 100%;
 }
 
-footer{
+
+
+
+/* footer{
     font-family: var(--ff-footer);
     font-weight: var(--fw-400);
     font-size: var(--size-14px);
     color: var(--clr-prim-lightGrey);
+} */
+
+
+
+/*Generel stylling af header og footer*/
+
+/*FOOTER*/
+
+a{
+    color:var(--clr-prim-lightGrey);
+}
+footer{
+    padding: 20px;
+    font-family: var(--ff-footer);
+    font-weight: var(--fw-400);
+    font-size: var(--size-14px);
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contact-info, .other-restaurants, .social-media {
+    margin-bottom: 20px;
+}
+.contact-info p, .other-restaurants p {
+margin: 0;
+}
+.social-media a {
+margin: 0 10px;
+}
+.social-media img{
+    width: auto;
+    height: auto;
+}
+@media(min-width : 600px){
+.footer-content{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+.contact-info, .other-restaurants, .social-media{
+    margin-bottom: 0;
+}
 }
