@@ -131,10 +131,10 @@ font-size: var(--size-14px);
 color: var(--clr-prim-lightGrey);
 }
 
-/* img,picture,video,canvas,svg{
+ video{
     display: block;
     max-width: 100%;
-}
+} 
 
 
 
