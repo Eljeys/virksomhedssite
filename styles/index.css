@@ -22,20 +22,23 @@ dotlottie-player {
 }
 
 img.frontpage,
-h1 {
+h2 {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
   align-self: center;
-  font-family: margot, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 90px;
-  text-align: center;
 }
 
 .frontphoto {
   display: grid;
   width: 100%;
+}
+
+.frontphoto h2 {
+  font-family: margot, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
 }
 
 img.frontpage {
@@ -52,12 +55,11 @@ img.frontpage {
   text-align: justify;
 }
 
-.front-tekst,
-h1 {
+.front-tekst h2 {
   font-family: margot, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 35px;
   color: white;
   text-align: center;
 }
