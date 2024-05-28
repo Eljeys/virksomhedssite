@@ -177,7 +177,7 @@ header{
     flex-direction: row;
     flex: 1;
 
-
+    background-color: transparent;
     color: var(--clr-prim-lightGrey);
     margin-left: 5%;
     width:100%;
