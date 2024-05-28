@@ -1,3 +1,10 @@
+/*Test af footer*/
+
+/****/
+
+
+
+   
 .image1, .image2, .image3, .image4, .image5{
     padding-left: 2%;
     padding-right: 2%;
@@ -43,6 +50,7 @@ scroll-snap-align: start;
 
 /*styling af tekst*/
 .adresse{
+    border:3px solid red;
     position: relative;
     display: flex;
     justify-content: center;

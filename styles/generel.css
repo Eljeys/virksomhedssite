@@ -149,6 +149,67 @@ color: var(--clr-prim-lightGrey);
 
 
 /*Generel stylling af header og footer*/
+/*HEADER*/
+header{
+    border: 3px solid yellow;
+}
+
+.logo{
+    border: 3px solid red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+    align-items: center;
+    margin: 10px;
+
+    
+}
+
+/*Menu punkterne*/
+.nav_list{
+    border: 3px dotted darkorange;
+    position: relative;
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    flex: 1;
+
+    background-color: transparent;
+    color: var(--clr-prim-lightGrey);
+    margin-left: 5%;
+    width:100%;
+    padding-left: 5%;
+    
+    list-style: none;
+    
+    font-family: var(--ff-main);
+    font-size: var(--size-24px); 
+}
+
+.nav_list a{
+    text-decoration: none;
+}
+
+
+/*Button*/
+.navigation{
+    border: none;
+    color: var(--clr-prim-lightGrey);
+}
+
+.order_btn {
+position: relative;
+display:flex;
+width: fit-content;
+background-color: var(--clr-prim-brown);
+padding-left: 40%;
+}
+
+
+
 
 /*FOOTER*/
 
