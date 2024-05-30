@@ -150,63 +150,101 @@ color: var(--clr-prim-lightGrey);
 
 /*Generel stylling af header og footer*/
 /*HEADER*/
-header{
-    border: 3px solid yellow;
-}
+
+
 
 .logo{
-    border: 3px solid red;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width:fit-content;
-    align-items: center;
-    margin: 10px;
-
+    position:relative;
+    float: left;
+    width: fit-content;
     
 }
-
-/*Menu punkterne*/
-.nav_list{
-    border: 3px dotted darkorange;
-    position: relative;
-    /* overflow: hidden; */
+nav{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content:space-around;
-    flex-direction: row;
-    flex: 1;
+}
 
-    background-color: transparent;
-    color: var(--clr-prim-lightGrey);
-    margin-left: 5%;
-    width:100%;
-    padding-left: 5%;
-    
+
+nav ul{
+  
+  display:flex;
+  justify-content: space-evenly;
+
+}
+
+ .nav-links{
+    /* border: solid red; */
+   /* z-index: 10; */
     list-style: none;
-    
+    cursor: pointer;
+    display: flex;
+    gap: 75px;
+
+    padding: 5px;
+    margin: auto;
+
     font-family: var(--ff-main);
-    font-size: var(--size-24px); 
-}
-
-.nav_list a{
-    text-decoration: none;
-}
-
-
-/*Button*/
-.navigation{
-    border: none;
+    font-size: var(--size-18px);
     color: var(--clr-prim-lightGrey);
+} 
+
+.navi:hover{
+    text-decoration: underline;
 }
 
-.order_btn {
-position: relative;
-display:flex;
-width: fit-content;
-background-color: var(--clr-prim-brown);
-padding-left: 40%;
+.navi a{
+    /* border: solid orange; */
+    text-decoration: none;
+
 }
+
+.ord_button{
+    /* border: solid orange; */
+    background-color: var(--clr-prim-brown);
+    font-family: var(--ff-main);
+    text-decoration: none;
+
+
+
+    display: inline-block;
+    width:fit-content;
+    height: fit-content; 
+    text-align: center;
+    cursor: pointer;
+
+    padding: 10px;
+    margin: auto;
+
+
+}
+
+.order{
+    padding-top: 0;
+    display: flex;
+    position: relative;
+    width: fit-content;  
+    margin-right: 20px; 
+}
+
+.ord_button:hover{
+    background-color: var(--clr-tint-brown3);
+
+}
+.ord_button:active{
+    background-color: var(--clr-shades-brown2);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -251,3 +289,4 @@ margin: 0 10px;
     margin-bottom: 0;
 }
 }
+

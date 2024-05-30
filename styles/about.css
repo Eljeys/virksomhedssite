@@ -50,7 +50,6 @@ scroll-snap-align: start;
 
 /*styling af tekst*/
 .adresse{
-    border:3px solid red;
     position: relative;
     display: flex;
     justify-content: center;
